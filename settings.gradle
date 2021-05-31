@@ -1,0 +1,2 @@
+rootProject.name = "Tiny Doors Scavenger Hunts"
+include ':app'
