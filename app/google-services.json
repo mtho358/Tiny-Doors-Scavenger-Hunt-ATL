@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1028903393832",
+    "firebase_url": "https://tiny-doors-scavenger-hunts-default-rtdb.firebaseio.com",
+    "project_id": "tiny-doors-scavenger-hunts",
+    "storage_bucket": "tiny-doors-scavenger-hunts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028903393832:android:5600d68c0d0f82b6b3731d",
+        "android_client_info": {
+          "package_name": "com.coolcats.tinydoorsscavengerhunts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028903393832-7sadj1856mlauahnlfdripsmsj5pdgfo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coolcats.tinydoorsscavengerhunts",
+            "certificate_hash": "3eb89d1d98fab2170f2d1c4fe4b2235c53391f3f"
+          }
+        },
+        {
+          "client_id": "1028903393832-0hrev3bj90v9r6d5q76fattsd3sj4u84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7WtLk7gwXHPo5ZLg5S5HD4fLHPocadYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028903393832-0hrev3bj90v9r6d5q76fattsd3sj4u84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

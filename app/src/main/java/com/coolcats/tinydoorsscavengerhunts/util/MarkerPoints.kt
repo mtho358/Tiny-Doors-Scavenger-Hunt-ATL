@@ -1,6 +1,11 @@
 package com.coolcats.tinydoorsscavengerhunts.util
 
+import android.util.Log
+import com.coolcats.tinydoorsscavengerhunts.R
+import com.coolcats.tinydoorsscavengerhunts.model.TinyDoor
 import com.google.android.gms.maps.model.LatLng
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
 class MarkerPoints {
 
@@ -19,19 +24,19 @@ class MarkerPoints {
         val marker13 = LatLng(33.7819073,-84.3684715)
         val marker14 = LatLng(33.7386549,-84.3449941)
         val marker15 = LatLng(33.7726191,-84.3850063)
-        val market16 = LatLng(33.7564896,-84.3962349)
+        val marker16 = LatLng(33.7564896,-84.3962349)
         val marker17 = LatLng(33.7563463,-84.3879174)
-        val market18 = LatLng(33.7887247,-84.3852184)
-        val market20 = LatLng(33.7527384,-84.3375542)
+        val marker18 = LatLng(33.7887247,-84.3852184)
+        val marker20 = LatLng(33.7527384,-84.3375542)
         val marker21 = LatLng(33.7931121,-84.3962916)
         //Tiny Door 658
         val marker22 = LatLng(33.7537435,-84.3654109)
         //Tiny Door @ Swan House
         val marker23 = LatLng(33.8409864,-84.3890419)
         //Tiny Door @ Georgia Aquarium
-        val market24 = LatLng(33.7633226,-84.394725)
+        val marker24 = LatLng(33.7633226,-84.394725)
         //Tiny Doors at Centennial Olympic Park
         val marker25 = LatLng(33.7593522,-84.393577)
-
     }
+
 }
