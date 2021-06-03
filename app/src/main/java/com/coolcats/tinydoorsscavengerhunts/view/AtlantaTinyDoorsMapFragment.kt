@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.coolcats.tinydoorsscavengerhunts.R
 import com.coolcats.tinydoorsscavengerhunts.model.TinyDoor
+import com.coolcats.tinydoorsscavengerhunts.viewmodel.TinyDoorViewModel
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -18,6 +19,8 @@ import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class AtlantaTinyDoorsMapFragment : Fragment() {
+
+
 
     private val callback = OnMapReadyCallback { googleMap ->
         val dbReference = FirebaseDatabase.getInstance().reference.child("TinyDoors")

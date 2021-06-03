@@ -44,6 +44,7 @@ class TinyDoorListFragment : Fragment() {
                 }
 
                 tinyDoorLiveData.postValue(tinyDoorList)
+                adapter.tinyDoorsList = tinyDoorList
             }
 
 
