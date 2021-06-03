@@ -1,5 +1,6 @@
 package com.coolcats.tinydoorsscavengerhunts.view
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,13 +20,14 @@ class TinyDoorRecyclerViewAdapter() : RecyclerView.Adapter<TinyDoorRecyclerViewA
     inner class TinyDoorViewHolder(itemView: View) :RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TinyDoorViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.tiny_door_list_item, parent, false)
-
+        val view = LayoutInflater.from(parent.context).
+            inflate(R.layout.tiny_door_list_item, parent, false)
         return TinyDoorViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: TinyDoorViewHolder, position: Int) {
         val tinyDoor = tinyDoorsList[position]
+        Log.d("TAG_M", "${tinyDoor.name}")
         holder.itemView.apply {
             tiny_door_name_textview.text = tinyDoor.name.trim()
         }
